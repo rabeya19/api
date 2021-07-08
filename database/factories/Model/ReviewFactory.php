@@ -3,6 +3,7 @@
 namespace Database\Factories\Model;
 
 use App\Models\Model\Review;
+use App\Models\Model\Product;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class ReviewFactory extends Factory
@@ -22,7 +23,7 @@ class ReviewFactory extends Factory
     public function definition()
     {
         return [
-            //
+            
         ];
     }
 }

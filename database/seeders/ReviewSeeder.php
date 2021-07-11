@@ -17,6 +17,12 @@ class ReviewSeeder extends Seeder
        
             DB::table('reviews')->insert([
             [
+                    'product_id'=> 1,
+                    'customer'=> "Mustofa",
+                    'review'=>"Amazing product",
+                    'star'=>"3"
+            ],
+            [
             'product_id'=> 2,
             'customer'=> "Mustofa",
             'review'=>"Amazing",
